@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Random English Word Generator",
+    "version": "1.0",
+    "description": "Generates a random set of English words for daily practice and manages a vocabulary list.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "web_accessible_resources": [
+      "display.html",
+      "list.html"
+    ]
+  }
+  
